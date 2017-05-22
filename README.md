@@ -18,3 +18,6 @@
      -> Pipes transform displayed values within a template.
      -> Angular comes with some Built  in pipes. Such as: DatePipe, UpperCasePipe, LowerCasePipe,
      CurrencyPipe, and PercentPipe.
+
+### What is Router!
+     -> Router enables navigation from one view to the next as users perform application tasks.
