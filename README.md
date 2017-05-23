@@ -13,6 +13,7 @@
      -> DOM: Document Object Model
      -> API: Application Program Interface
      -> REST: REpresentational State Transfer
+     -> W3C: World Wide Web Consortium
 
 ### How do you speed up your site!
      ->To speed up the site performance we need to do:
@@ -33,8 +34,22 @@
      -> Asynchronous means that the script will send a request to the server, and continue it's execution without
      waiting for the reply. As soon as reply is received a browser event is fired.
 
+### What is web worker!
+     -> Web worker is a JavaScript that runs in the background independently of other scripts, without affecting the
+     performance of the page. You can continue to do whatever you want while the web worker runs in the background.
 
+### What is MVC!
+     -> MVC stands for Model View Controllers. It is a software design pattern for web development application.
+          a. Model is responsible for maintaining data.
+          b. View is responsible for displaying data.
+          c. Controller is integrate data between Model and View.
 
+### What is DOM!
+     -> The DOM is stands for Document Object Model. It’s a W3C standard, which defines a standard for accessing Documents.
+     W3C separated DOM in three ways:
+           a. Core DOM (For All Documents.)
+           b. XML DOM ( For XML)
+           c. HTML DOM ( For HTML )
 
 
 
