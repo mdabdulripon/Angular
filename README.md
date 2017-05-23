@@ -99,6 +99,82 @@
 
 ## JAVASCRIPT
 
+### What are the data type in javascript!
+     - Number
+     - String
+     - Boolean
+     - Function
+     - Objects
+     - Null
+     - Undefined
+
+### What are the comparison operator!
+     - == [ Double Equals ]
+     - === [ Triple Equals ]
+     - != [ Not Equal ]
+     - > [ Greater than ]
+     - < [ Less than ]
+     - >= [ Greater than equal ]
+     - <= [ Less Than equal ]
+
+### What are the logical operator!
+     - && [ And ]
+     - ||[ Or]
+     - ! [ Nor ]
+
+### Undeclared Variable:
+     Undeclared variables are not exist in program, when program tries to run there will be a runtime error.
+### Undefined Variables:
+     Undefined variables are declared in program but have not given any value. If programs tries to run an undefined
+     value is returned.
+### Global Variable:
+     Global Variables are declared outside of the function and can be reusable throughout the application.
+### Local Variable:
+     Local variables are declared inside the function and can not be access for other function.
+
+### What is the differences between = , == , and ===!
+     -> Single equal is an assignment operator.
+     -> Double equals is a comparison operator. Also known as a loose equality operator. For example, it execute
+     the number which is string in other side.
+     -> Triple equals is also a comparison operator. Also known as a strict equality operator. For example, for
+     execute it has be be same in both side.
+
+### What is an Array and How do you create an array!
+     -> Arrays are used to store multiple values or elements in a single variable.
+     Example: Declared a variable name
+     Var a = [ and assign the value inside the square brackets separated by comma ]
+
+     -> Array method are in the below:
+          - join(): Join all array into a string.
+          - toString(): Convert an array to a string separated by comma.
+          - pop(): Remove the last element of an array
+          - push(): Add new element at the end of an array.
+          - shift(): Remove the first element of an array.
+          - unshift(): Add new elements at the first of an array.
+          - sort(): Arrange the elements in alphabetical order.
+          - reverse(): Reverse the elements in an array.
+          - concat(): Create new elements by connecting two arrays.
+
+
+### what is an Object and how do you create an object!
+     -> An object is a collection of properties, and a property is associates between a name (or key) and a value.
+     Example: Declared a variable name:
+     var person = {
+          first_name:"Abdul",
+          last_name:"Ripon",
+          age : 24,
+          eye_color: "blue"
+     };
+     Note: [ The person is an object and first_name, last_name, age and eye_color it’s property ]
+
+### What is an anonymous function?
+     -> A function without name is called an Anonymous Function.
+     Example:
+     var x = function (a, b){
+          return a * b
+     };
+     document.getElementById("demo").innerHTML = x (4, 3);
+
 ### What is Closures!
      -> Closures are functions that refer to independent variables. I mean, variables that are used locally, but
      defined in an enclosing scope.
