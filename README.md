@@ -42,7 +42,7 @@
      -> MVC stands for Model View Controllers. It is a software design pattern for web development application.
           a. Model is responsible for maintaining data.
           b. View is responsible for displaying data.
-          c. Controller is integrate data between Model and View.
+          c. Controller is controlling data between Model and View.
 
 ### What is DOM!
      -> The DOM is stands for Document Object Model. It’s a W3C standard, which defines a standard for accessing Documents.
@@ -175,6 +175,13 @@
      };
      document.getElementById("demo").innerHTML = x (4, 3);
 
+### What is scope?
+     -> JavaScript has two scopes: global and local.
+          - A variable that is declared outside of a function is a global variable, and its value is accessible and
+          modifiable throughout your program.
+          - A variable that is declared inside a function is local variable, and its value is accessible in in that function.
+
+
 ### What is Closures!
      -> Closures are functions that refer to independent variables. I mean, variables that are used locally, but
      defined in an enclosing scope.
@@ -191,3 +198,6 @@
      -> The variable add is assigned the return value of a self-invoking function.
      -> The self-invoking function only runs once. It sets the counter to zero, and returns a function expression.
      -> This is called a JavaScript closure. It makes it possible for a function to have "private" variables.
+
+
+## JQUERY:
