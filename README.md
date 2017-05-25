@@ -1,6 +1,6 @@
 ## GENERAL:
 
-### STAND FOR:
+### Stand For:
      -> HTML: Hypertext Markup Language
      -> CSS: Cascading Style Sheet
      -> XML: Extensible Markup Language
@@ -12,7 +12,7 @@
      -> DTD: Document Type Definition
      -> DOM: Document Object Model
      -> API: Application Program Interface
-     -> REST: REpresentational State Transfer
+     -> REST: Re-Presentational State Transfer
      -> W3C: World Wide Web Consortium
 
 ### How do you speed up your site!
@@ -30,7 +30,7 @@
 ### What is Vanilla javascript!
      -> Vanilla Js is a name to refer to using plain JavaScript without any additional libraries like jQuery.
 
-### what is Asynchronous method!
+### What is Asynchronous method!
      -> Asynchronous means that the script will send a request to the server, and continue it's execution without
      waiting for the reply. As soon as reply is received a browser event is fired.
 
@@ -72,8 +72,8 @@
      04. Angular2 much more testable
 
 ### What is Components!
-     -> Component decorator allows you to mark a class as an Angular component and provide additional
-     metadata that determines how the component should be processed, instantiated and used at runtime.
+     -> Component decorator allows you to mark a class as an Angular component and provide additional metadata that
+     determines how the component should be processed, instantiated and used at runtime.
      -> Angular components are a subset of directives.
      -> A component must belong to an NgModule in order for it to be usable by another component or application.
 
@@ -83,20 +83,21 @@
           02. Structural directives
                -> Structural Directives change the structure of the view. Two examples are NgFor and NgIf.
           03. Attribute directives
-               -> Attribute directives are used as attributes of elements. NgClass, NgStyle, NgModel
-               are Attribute directives.
+               -> Attribute directives are used as attributes of elements. NgClass, NgStyle, NgModel are Attribute
+               directives.
 ### What is Pipes!
      -> Pipes transform displayed values within a template.
-     -> Angular comes with some Built  in pipes. Such as: DatePipe, UpperCasePipe, LowerCasePipe,
-     CurrencyPipe, and PercentPipe.
+     -> Angular comes with some Built  in pipes. Such as: DatePipe, UpperCasePipe, LowerCasePipe, CurrencyPipe, and
+     PercentPipe.
+
+### What is async pipe?
+     The async pipe subscribes to an Observable and returns the latest changed value. When a new value is changed, the async pipe marks the component to be checked for changes. When the component gets destroyed the async pipe unsubscribes automatically to avoid potential memory leaks.
 
 ### What is Router!
      -> Router enables navigation from one view to the next as users perform application tasks.
 
 
-
-
-
+<hr>
 ## JAVASCRIPT
 
 ### What are the data type in javascript!
@@ -125,8 +126,8 @@
 ### Undeclared Variable:
      Undeclared variables are not exist in program, when program tries to run there will be a runtime error.
 ### Undefined Variables:
-     Undefined variables are declared in program but have not given any value. If programs tries to run an undefined
-     value is returned.
+     Undefined variables are declared in program but have not given any value. If programs tries to run an
+     undefined value is returned.
 ### Global Variable:
      Global Variables are declared outside of the function and can be reusable throughout the application.
 ### Local Variable:
@@ -198,6 +199,9 @@
      -> The variable add is assigned the return value of a self-invoking function.
      -> The self-invoking function only runs once. It sets the counter to zero, and returns a function expression.
      -> This is called a JavaScript closure. It makes it possible for a function to have "private" variables.
+
+### What is typeof operator!
+     -> Typeof operator returns a string that identifies the data type of an expression.
 
 
 ## JQUERY:
