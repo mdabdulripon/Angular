@@ -116,6 +116,36 @@
           cancellable.
      -> The Observables are more advanced than Promises.
 
+### Why Angular 2 modules needed?
+     -> An Angular @NgModule allows us to define a context for compiling templates.
+
+### What is Dependency Injection!
+     -> Dependency Injection is a powerful pattern for managing code dependencies. Angular 2 Dependency Injection consists of three things.
+          1. Injector
+               The injector object use to create instances of dependencies.
+          2. Provider
+               A provider is help to injector for create an instance of a dependency. A provider takes a token and
+               maps that to a factory function that creates an object.
+          3. Dependency
+               A dependency is the type of which an object should be created.
+
+### What is Input decorator in Angular 2!
+     -> @Import allows you to pass data into your controller and templates through html and defining custom
+     properties.
+
+### What is Output decorator in angular 2!
+     -> @Output decorator is used to binds a property of a component to send the data from child component to parent component and this is a one-way communication.     
+
+### Routes
+     -> Routes uses to describe our application's Routes.
+
+### Router-outlet directive!
+     -> Router-outlet directive is used to render the components for specific location of your applications.
+
+###RouterLink:
+     -> RouterLink is use to link to application's routes.
+
+
 <hr>
 
 ## JAVASCRIPT
