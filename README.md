@@ -99,7 +99,25 @@
      -> Router enables navigation from one view to the next as users perform application tasks.
 
 
+### What is an Angular 2 Service!
+     -> Angular 2 service is a class which is associates with some methods (GET/POST/PUT) and provides it result as
+     a service for across your application.
+### What are the features of Angular 2 Service!
+     1. Services are singleton objects.
+     2. Services are capable of returning the data in the form promises or observables.
+     3. Service class is decorated with Injectable decorator
+
+### What are the differences between Observables & Promises?
+     -> Promise:
+          Promises are only called once and It can return only a single value at a time and the Promises are not
+          cancellable.
+     -> Observables:
+          Observables handle multiple values over time and it can return multiple values and the Observables are
+          cancellable.
+     -> The Observables are more advanced than Promises.
+     
 <hr>
+
 ## JAVASCRIPT
 
 ### What are the data type in javascript!
