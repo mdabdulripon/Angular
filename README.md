@@ -45,8 +45,8 @@
           c. Controller is controlling data between Model and View.
 
 ### What is DOM!
-     -> The DOM is stands for Document Object Model. It’s a W3C standard, which defines a standard for accessing Documents.
-     W3C separated DOM in three ways:
+     -> The DOM is stands for Document Object Model. It’s a W3C standard, which defines a standard for accessing
+     Documents. W3C separated DOM in three ways:
            a. Core DOM (For All Documents.)
            b. XML DOM ( For XML)
            c. HTML DOM ( For HTML )
@@ -91,7 +91,9 @@
      PercentPipe.
 
 ### What is async pipe?
-     The async pipe subscribes to an Observable and returns the latest changed value. When a new value is changed, the async pipe marks the component to be checked for changes. When the component gets destroyed the async pipe unsubscribes automatically to avoid potential memory leaks.
+     The async pipe subscribes to an Observable and returns the latest changed value. When a new value is changed,
+     the async pipe marks the component to be checked for changes. When the component gets destroyed the async pipe
+     unsubscribes automatically to avoid potential memory leaks.
 
 ### What is Router!
      -> Router enables navigation from one view to the next as users perform application tasks.
@@ -180,7 +182,8 @@
      -> JavaScript has two scopes: global and local.
           - A variable that is declared outside of a function is a global variable, and its value is accessible and
           modifiable throughout your program.
-          - A variable that is declared inside a function is local variable, and its value is accessible in in that function.
+          - A variable that is declared inside a function is local variable, and its value is accessible in
+          in that function.
 
 
 ### What is Closures!
