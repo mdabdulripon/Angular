@@ -53,7 +53,7 @@
 
 
 
-## ANGULAR:
+## ANGULAR 2 & UPPER VERSION:
 
 ### What's New in Angular 4!
      -> Smaller & Faster Apps:
@@ -115,33 +115,33 @@
           Observables handle multiple values over time and it can return multiple values and the Observables are
           cancellable.
      -> The Observables are more advanced than Promises.
-     
+
 <hr>
 
 ## JAVASCRIPT
 
 ### What are the data type in javascript!
-     - Number
-     - String
-     - Boolean
-     - Function
-     - Objects
-     - Null
-     - Undefined
+     -> Number
+     -> String
+     -> Boolean
+     -> Function
+     -> Objects
+     -> Null
+     -> Undefined
 
 ### What are the comparison operator!
-     - == [ Double Equals ]
-     - === [ Triple Equals ]
-     - != [ Not Equal ]
-     - > [ Greater than ]
-     - < [ Less than ]
-     - >= [ Greater than equal ]
-     - <= [ Less Than equal ]
+     -> == [ Double Equals ]
+     -> === [ Triple Equals ]
+     -> != [ Not Equal ]
+     -> > [ Greater than ]
+     -> < [ Less than ]
+     -> >= [ Greater than equal ]
+     -> <= [ Less Than equal ]
 
 ### What are the logical operator!
-     - && [ And ]
-     - ||[ Or]
-     - ! [ Nor ]
+     -> && [ And ]
+     -> ||[ Or]
+     -> ! [ Nor ]
 
 ### Undeclared Variable:
      Undeclared variables are not exist in program, when program tries to run there will be a runtime error.
@@ -166,15 +166,15 @@
      Var a = [ and assign the value inside the square brackets separated by comma ]
 
      -> Array method are in the below:
-          - join(): Join all array into a string.
-          - toString(): Convert an array to a string separated by comma.
-          - pop(): Remove the last element of an array
-          - push(): Add new element at the end of an array.
-          - shift(): Remove the first element of an array.
-          - unshift(): Add new elements at the first of an array.
-          - sort(): Arrange the elements in alphabetical order.
-          - reverse(): Reverse the elements in an array.
-          - concat(): Create new elements by connecting two arrays.
+          -> join(): Join all array into a string.
+          -> toString(): Convert an array to a string separated by comma.
+          -> pop(): Remove the last element of an array
+          -> push(): Add new element at the end of an array.
+          -> shift(): Remove the first element of an array.
+          -> unshift(): Add new elements at the first of an array.
+          -> sort(): Arrange the elements in alphabetical order.
+          -> reverse(): Reverse the elements in an array.
+          -> concat(): Create new elements by connecting two arrays.
 
 
 ### what is an Object and how do you create an object!
@@ -198,9 +198,9 @@
 
 ### What is scope?
      -> JavaScript has two scopes: global and local.
-          - A variable that is declared outside of a function is a global variable, and its value is accessible and
+          -> A variable that is declared outside of a function is a global variable, and its value is accessible and
           modifiable throughout your program.
-          - A variable that is declared inside a function is local variable, and its value is accessible in
+          -> A variable that is declared inside a function is local variable, and its value is accessible in
           in that function.
 
 
