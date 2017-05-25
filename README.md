@@ -255,4 +255,81 @@
      -> Typeof operator returns a string that identifies the data type of an expression.
 
 
+<hr>   
+
 ## JQUERY:
+
+### What is jQuery!
+     -> jQuery is a JavaScript library or frameworks  which does:
+          01. Document traversing ,
+          02. Event handling,
+          03. Ajax interaction and
+          04. Animation.
+
+### What is the each method!
+     -> Each method is use for loop the DOM elements, array, and objects properties.
+          Example: I want to loop the list items by click a button.
+          $(document).ready(function(){
+              $("button").click(function(){
+                  $("li").each(function(){
+                      alert($(this).text())
+                  });
+              });
+          });
+
+### What is the this keyword?
+     -> This keyword always refers to the current object of the DOM elements.  
+     For example;
+     <a href="#" onclick="$(this).css('display', 'none')">Hide me!</a>
+
+### What is the find and children methods!
+     -> Find method find all the element of the DOM.
+     -> Children method find one level down to the DOM elements.
+
+### What is the difference between size and length!
+    -> Size and length both returns number of the element in an object. But length is faster than size because
+     length is a property and size is a method.
+
+
+### What are the differences between body.onload() and document.ready() function.		
+     -> We can have only one body.onload() function, but we can have multiple document.ready function().
+     -> body.onload() function is called when everything is gets ready like DOM, and images. On the other hand document.ready function() is called as soon as the DOM is loaded.
+
+### Can we use specific character in place of $ sign and how?
+     To replace the $ sign we can use noConflict().
+          For Example: A name like
+               ripon.noConflict()
+               ripon.(document).ready(function() {
+                    // code goes here				
+               });					
+               Or,
+               var ripon = jQuery.noConflict()
+               ripon.(document).ready(function() {
+                    // code goes here
+               });
+
+### What is higher order function?		
+     -> A function that takes other function as  an arguments  and returns the function result as its own result is
+     called a higher order function.
+
+### What is callback!
+     -> The function is passed as an argument is call callback function. It‘s named callback because at some point
+     of time it is call by a higher order function.  A callback function is executed after the current effect is
+     finished.
+           Foe Example:
+           $("button").click(function(){
+           	$("p").hide("slow", function(){
+               	alert("The paragraph is now hidden");
+           	});
+           });
+
+### What is Ajax!			
+ -> Ajax is stand for Asynchronous JavaScript and XML. Moreover, it’s:
+       01. Update a page without reloading it.
+       02. Received data from server.
+       03. Request data from server
+       04. Send data to the server.
+
+### What is the use of lord method!
+     -> Load method is a powerful ajax method which is, lord data from server and  send data to the server without
+     refreshing the page.
