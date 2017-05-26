@@ -292,7 +292,8 @@
 
 ### What are the differences between body.onload() and document.ready() function.		
      -> We can have only one body.onload() function, but we can have multiple document.ready function().
-     -> body.onload() function is called when everything is gets ready like DOM, and images. On the other hand document.ready function() is called as soon as the DOM is loaded.
+     -> body.onload() function is called when everything is gets ready like DOM, and images. On the other hand
+     document.ready function() is called as soon as the DOM is loaded.
 
 ### Can we use specific character in place of $ sign and how?
      To replace the $ sign we can use noConflict().
@@ -332,3 +333,73 @@
 ### What is the use of lord method!
      Load method is a powerful ajax method which is, lord data from server and  send data to the server without
      refreshing the page.
+
+
+<hr>
+
+## CSS / CSS3
+
+### CSS3 new feature or properties!
+     -> Box Model
+     -> Box shadows
+     -> Text shadows
+     -> Pseudo classes
+     -> Rounded corner
+     -> RGBA Color
+     -> Border images
+     -> New web fonts
+     -> Transform property
+     -> Multi column layout
+
+### Block elements
+     Block elements takes the full width available.
+### Inline elements
+     Inline elements takes as much width as they need.
+
+### Visibility : hidden
+     Visibility hidden simply hide the element but still take the space and affect to the layout of the document.
+### Display : none
+     Display none also hide the element and do not take the space.
+
+### What are the main component of CSS!
+     -> Selectors
+     -> Property
+     -> Values
+
+### What are child selector
+      -> Child selectors is another way to group styling that descent from the parents.
+      -> Child selector is mention by two or more elements, which is separated by > [greater than sign]
+
+### How many position exit in css and what their works?
+     There are four default positioning in css:
+          -> Static position
+               The elements is position in order as they appear in the document flow. This is default position.
+          -> Relative position
+               The element is positioned relative to its normal position. By using left, right, top, bottom properties
+               we can adjust the element from its normal position.
+          -> Fixed position:
+               The element always stay in the same place even the page scroll.
+          -> Absolute position
+               The element is positioned relatives to its first positioned parents element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+## HTML / HTML5
