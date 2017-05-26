@@ -382,20 +382,52 @@
           -> Absolute position
                The element is positioned relatives to its first positioned parents element.
 
+### What is the purpose of pseudo elements and how they are made?
+     A pseudo element is used to style specified parts of an element.
+     Pseudo elements are made by using double colon followed by the name of pseudo element.
+     For Example:
+          -> ::after
+          -> ::before
+          -> ::first-letter
+          -> ::first-line
+          -> ::selection
 
+### Class selector
+     Class selector is a way to styling multiple element.
+### ID selector
+     ID selector is for only one element styling.
 
+### What are pseudo classes and what they are use for!
+     Pseudo class is used to define a special state of an element.
+     For example, it can be used to:
+          -> Style an element when a user mouses over it
+          -> Style visited and unvisited links differently
+          -> Style an element when it gets focus
 
-
-
-
-
-
-
-
-
-
-
-
+     The most common pseudo class are:
+     -> :active
+     -> :visited
+     -> :target
+     -> :hover
+     -> :focus
+### What are the css selectors!
+     Class selectors
+          -> Class selector is a way to styling multiple element
+     Id selectors
+          ->  ID selector is for only one element styling.
+     Universal selectors
+          ->  Universal selector selects all elements.
+          For Example:
+          * {
+               margin: 0px;
+               padding: 0px;
+          }
+     Attribute selectors
+          -> The attribute selector is used to select elements with a specified attribute.
+          For Example:
+          a[target] {
+              background-color: yellow;
+          }
 
 
 
