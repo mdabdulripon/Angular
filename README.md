@@ -438,7 +438,12 @@
 
 ### What is the !Doctype
      It is specifies which markup standers the page using. With this information, the browser determines how
-to render the page according to the source code.
+     to render the page according to the source code.
+
+### What are difference between HTML and HTML5
+     HTML is a simple language for laying out text and images for the web page. On other hand, HTML5 is consider
+     as an application development platform which does whatever html does and more. It also comes up with some
+     new elements which supports all the major browser.
 
 ### What is Element!
      Element are individual component of HTML document. Each element can have attribute and content.
@@ -452,9 +457,9 @@ to render the page according to the source code.
      Attribute are always provide additional information about the element
 
 ### What are some new feature of HTML5!
-     -> Semantic Elements [ section, header, footer, aside, nav, article ]
-     -> Form 2.0 [ HTML5  include some new attribute with input form. Example: date, time, month, week, number,
+     -> Semantic Elements [section, header, footer, aside, nav, article]
+     -> Form 2.0 [HTML5  include some new attribute with input form. Example: date, time, month, week, number,
      email, url, output]
-     -> Audio / video [ We can embed Audio, Video without restoring  the third parties plugin ]
-     -> Canvas [ This support two dimensional drawing surface ]
-     -> Geo location [ Now visitors can choose to share their own location]
+     -> Audio / video [We can embed Audio, Video without restoring  the third parties plugin]
+     -> Canvas [This support two dimensional drawing surface]
+     -> Geo location [Now visitors can choose to share their own location]
