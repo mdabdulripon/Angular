@@ -435,3 +435,26 @@
 
 
 ## HTML / HTML5
+
+### What is the !Doctype
+     It is specifies which markup standers the page using. With this information, the browser determines how
+to render the page according to the source code.
+
+### What is Element!
+     Element are individual component of HTML document. Each element can have attribute and content.
+     Example: head, body , title, html, p.
+
+### What is tag!
+     Tag are hidden keyword within a webpage which define how browser format and display the code.
+     Example: href, src, alt.
+
+### What is attribute!
+     Attribute are always provide additional information about the element
+
+### What are some new feature of HTML5!
+     -> Semantic Elements [ section, header, footer, aside, nav, article ]
+     -> Form 2.0 [ HTML5  include some new attribute with input form. Example: date, time, month, week, number,
+     email, url, output]
+     -> Audio / video [ We can embed Audio, Video without restoring  the third parties plugin ]
+     -> Canvas [ This support two dimensional drawing surface ]
+     -> Geo location [ Now visitors can choose to share their own location]
