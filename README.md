@@ -119,7 +119,8 @@
      An Angular @NgModule allows us to define a context for compiling templates.
 
 ### What is Dependency Injection!
-     Dependency Injection is a powerful pattern for managing code dependencies. Angular 2 Dependency Injection consists of three things.
+     Dependency Injection is a powerful pattern for managing code dependencies. Angular 2 Dependency Injection consists
+     of three things.
           1. Injector
                The injector object use to create instances of dependencies.
           2. Provider
@@ -133,7 +134,8 @@
      properties.
 
 ### What is Output decorator in angular 2!
-     Output decorator is used to binds a property of a component to send the data from child component to parent component and this is a one-way communication.     
+     Output decorator is used to binds a property of a component to send the data from child component to parent
+     component and this is a one-way communication.     
 
 ### Routes
      Routes uses to describe our application's Routes.
@@ -252,6 +254,32 @@
 
 ### What is typeof operator!
      Typeof operator returns a string that identifies the data type of an expression.
+
+
+### What is event in JavaScript!
+     JavaScript's interaction with HTML is handled through events that occur when the user or the browser manipulates
+     a page.
+     Some Useful events are:
+          -> onclick
+          -> onload
+          -> onmouseover
+          -> onmouseout
+          -> onkeydown
+          -> onchange
+          -> onblur
+          -> ondblclick
+          -> onfocus
+
+
+###  JSON.parse()
+     -> When receiving data from a web server, the data is always a string.
+	-> Convert a string data into JavaScript object.
+
+
+### JSON.stringify():
+     -> When sending data to a web server, the data has to be a string.
+     -> Convert a JavaScript object into a string with JSON.stringify().
+
 
 
 <hr>   
