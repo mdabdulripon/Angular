@@ -1,55 +1,57 @@
 ## GENERAL:
 
 ### Stand For:
-     -> HTML: Hypertext Markup Language
-     -> CSS: Cascading Style Sheet
-     -> XML: Extensible Markup Language
-     -> AJAX: Asynchronous Javascript And Xml
-     -> JSON: JavaScript Object Notation
-     -> HTTP: Hypertext Transfer Protocol
-     -> XHTML: Extensible Hypertext Markup Language
-     -> SGML: STANDARD GENERALIZED MARKUP LANGUAGE
-     -> DTD: Document Type Definition
-     -> DOM: Document Object Model
-     -> API: Application Program Interface
-     -> REST: Re-Presentational State Transfer
-     -> W3C: World Wide Web Consortium
+    -> HTML: Hypertext Markup Language
+    -> CSS: Cascading Style Sheet
+    -> XML: Extensible Markup Language
+    -> AJAX: Asynchronous Javascript And Xml
+    -> JSON: JavaScript Object Notation
+    -> HTTP: Hypertext Transfer Protocol
+    -> XHTML: Extensible Hypertext Markup Language
+    -> DOM: Document Object Model
+    -> API: Application Program Interface
+    -> REST: Re-Presentational State Transfer
+    -> W3C: World Wide Web Consortium
+    -> SGML: STANDARD GENERALIZED MARKUP LANGUAGE
+    -> DTD: Document Type Definition
 
-### How do you speed up your site!
-     To speed up the site performance we need to do:
-          01. Minimize HTTP Requests
-          02. Reduce server response time
-          03. Enable browser caching
-          04. Optimize CSS File
-          05. Reduce the number of plugins you use on your site
-          06. Reduce image size
-          07. Load JavaScript asynchronously
-          08. Code your site for mobile-first quality and speed
-          09. Cache as much as possible
+### How do you speed up your site performance!
+    To speed up the site performance we need to do:
+        01. Minimize HTTP Requests.
+        02. Optimize CSS Files.
+        03. Reduce image size.
+        04. Reduce server response time.
+        05. Enable browser caching.
+        06. Load JavaScript asynchronously.
+        07. Code your site for mobile-first quality.
+        08. Cache as much as possible.
+        09. Reduce the number of plugins you use on your site.
 
 ### What is Vanilla javascript!
-     Vanilla Js is a name to refer to using plain JavaScript without any additional libraries like jQuery.
+    Vanilla Js is a name to refer to using plain JavaScript without any additional libraries like jQuery.
 
 ### What is Asynchronous method!
-     Asynchronous means that the script will send a request to the server, and continue it's execution without
-     waiting for the reply. As soon as reply is received a browser event is fired.
+    Asynchronous means that the script will send a request to the server, and continue it's execution
+    without waiting for the reply. As soon as reply is received a browser event is fired.
 
 ### What is web worker!
-     Web worker is a JavaScript that runs in the background independently of other scripts, without affecting the
-     performance of the page. You can continue to do whatever you want while the web worker runs in the background.
+    Web worker is a JavaScript that runs in the background independently of other scripts, without
+    affecting the page performance. You can continue to do whatever you want while the web worker
+    runs in the background.
 
 ### What is MVC!
-     MVC stands for Model View Controllers. It is a software design pattern for web development application.
-          a. Model is responsible for maintaining data.
-          b. View is responsible for displaying data.
-          c. Controller is controlling data between Model and View.
+    MVC stands for Model View Controllers. It is a software design pattern for web development
+    application.
+        a. Model is responsible for maintaining data.
+        b. View is responsible for displaying data.
+        c. Controller is responsible for controlling data between Model and View.
 
 ### What is DOM!
-     The DOM is stands for Document Object Model. It’s a W3C standard, which defines a standard for accessing
-     Documents. W3C separated DOM in three ways:
-           a. Core DOM (For All Documents.)
-           b. XML DOM ( For XML)
-           c. HTML DOM ( For HTML )
+    The DOM is stands for Document Object Model. It’s a W3C standard, which is define the standard for
+    accessing Documents. W3C separated DOM in three ways:
+        a. Core DOM (For All Documents)
+        b. XML DOM (For XML)
+        c. HTML DOM (For HTML)
 
 
 
@@ -72,8 +74,8 @@
      04. Angular2 much more testable
 
 ### What is Components!
-     -> Component decorator allows you to mark a class as an Angular component and provide additional metadata that
-     determines how the component should be processed, instantiated and used at runtime.
+     -> Component decorator allows you to mark a class as an Angular component and provide additional metadata
+     that determines how the component should be processed, instantiated and used at runtime.
      -> Angular components are a subset of directives.
      -> A component must belong to an NgModule in order for it to be usable by another component or application.
 
@@ -143,7 +145,7 @@
 ### Router-outlet directive!
      Router-outlet directive is used to render the components for specific location of your applications.
 
-###RouterLink:
+### RouterLink:
      RouterLink is use to link to application's routes.
 
 
@@ -151,61 +153,72 @@
 
 ## JAVASCRIPT
 
+### What is Javascript?
+    JavaScript is a client-side scripting language that can be inserted into HTML file. Which also known
+    as a lightweight with object-oriented capabilities.
+
 ### What are the data type in javascript!
-     -> Number
-     -> String
-     -> Boolean
-     -> Function
-     -> Objects
-     -> Null
-     -> Undefined
+    -> Number
+    -> String
+    -> Boolean
+    -> Function
+    -> Objects
+    -> Null
+    -> Undefined
 
 ### What are the comparison operator!
-     -> == [ Double Equals ]
-     -> === [ Triple Equals ]
-     -> != [ Not Equal ]
-     -> > [ Greater than ]
-     -> < [ Less than ]
-     -> >= [ Greater than equal ]
-     -> <= [ Less Than equal ]
+    The comparison operators are:
+    -> == [ Double Equals ]
+    -> === [ Triple Equals ]
+    -> != [ Not Equal ]
+    -> > [ Greater than ]
+    -> < [ Less than ]
+    -> >= [ Greater than equal ]
+    -> <= [ Less Than equal ]
 
 ### What are the logical operator!
-     -> && [ And ]
-     -> ||[ Or]
-     -> ! [ Nor ]
+    The logical operators are:
+    -> && [ And ]
+    -> ||[ Or]
+    -> ! [ Nor ]
 
 ### Undeclared Variable:
-     Undeclared variables are not exist in program, when program tries to run there will be a runtime error.
+     Undeclared variables do not exist in a program when the program tries to run there will be a runtime
+     error.
+
 ### Undefined Variables:
-     Undefined variables are declared in program but have not given any value. If programs tries to run an
-     undefined value is returned.
+     Undefined variables are declared in the program but have not given any value. If programs try to run
+     an undefined value will return.
+
 ### Global Variable:
-     Global Variables are declared outside of the function and can be reusable throughout the application.
+    Global Variables are declared outside of the function and can be accessible by throughout the
+    application.
+
 ### Local Variable:
-     Local variables are declared inside the function and can not be access for other function.
+     Local variables are declared inside the function and can not be accessed for other function.
 
 ### What is the differences between = , == , and ===!
-     -> Single equal is an assignment operator.
-     -> Double equals is a comparison operator. Also known as a loose equality operator. For example, it execute
-     the number which is string in other side.
-     -> Triple equals is also a comparison operator. Also known as a strict equality operator. For example, for
-     execute it has be be same in both side.
+    -> Single equal is an assignment operator.
+    -> Double equals is a comparison operator. Also known as a loose equality operator. For example,
+    it executes the number which is a string in another side.
+    -> Triple equals is also a comparison operator. Also known as a strict equality operator. For
+    execute, it has to be same on both sides.
 
 ### What is an Array and How do you create an array!
-     Arrays are used to store multiple values or elements in a single variable.
-     Example: Declared a variable name
-     Var a = [ and assign the value inside the square brackets separated by comma ]
+    Arrays are used to store multiple values or elements in a single variable.
+    Example: Declared a variable name
+    var a = [ and assign the value inside the square brackets separated by a comma ]
 
-     Array method are in the below:
-          -> join(): Join all array into a string.
-          -> toString(): Convert an array to a string separated by comma.
-          -> pop(): Remove the last element of an array
-          -> push(): Add new element at the end of an array.
-          -> shift(): Remove the first element of an array.
-          -> unshift(): Add new elements at the first of an array.
-          -> sort(): Arrange the elements in alphabetical order.
-          -> reverse(): Reverse the elements in an array.
-          -> concat(): Create new elements by connecting two arrays.
+    Array method are in the below:
+        -> join(): Join all array into a string.
+        -> toString(): Convert an array to a string separated by comma.
+        -> pop(): Remove the last element of an array
+        -> push(): Add new element at the end of an array.
+        -> shift(): Remove the first element of an array.
+        -> unshift(): Add new elements at the first of an array.
+        -> sort(): Arrange the elements in alphabetical order.
+        -> reverse(): Reverse the elements in an array.
+        -> concat(): Create new elements by connecting two arrays.
 
 
 ### what is an Object and how do you create an object!
@@ -287,207 +300,235 @@
 ## JQUERY:
 
 ### What is jQuery!
-     jQuery is a JavaScript library or frameworks  which does:
-          -> Document traversing ,
-          -> Event handling,
-          -> Ajax interaction and
-          -> Animation.
+    jQuery is a JavaScript library or frameworks  which does:
+        -> Document traversing,
+        -> Event handling,
+        -> Ajax interaction and
+        -> Animation.
 
 ### What is the each method!
-     Each method is use for loop the DOM elements, array, and objects properties.
-          Example: I want to loop the list items by click a button.
-          $(document).ready(function(){
-              $("button").click(function(){
-                  $("li").each(function(){
-                      alert($(this).text())
-                  });
-              });
-          });
+    Each method is used for a loop the DOM elements, array, and objects properties.
+    Example: I want to loop the list items by click a button.
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("li").each(function(){
+                alert($(this).text())
+            });
+        });
+    });
 
 ### What is the this keyword?
-     This keyword always refers to the current object of the DOM elements.  
-     For example;
-     <a href="#" onclick="$(this).css('display', 'none')">Hide me!</a>
+    This keyword always refers to the current object of the DOM elements.  
+    For example;
+    $(document).ready(function(){
+        $("p").click(function(){
+            $(this).hide();
+        });
+    });
 
 ### What is the find and children methods!
-     -> Find method find all the element of the DOM.
+     -> Find method find all the DOM elements
      -> Children method find one level down to the DOM elements.
 
 ### What is the difference between size and length!
-    Size and length both returns number of the element in an object. But length is faster than size because
-    length is a property and size is a method.
+    Size and length both returns number of the element in an object. But length is faster than size
+    because the length is a property and size is a method.
 
 
 ### What are the differences between body.onload() and document.ready() function.		
      -> We can have only one body.onload() function, but we can have multiple document.ready function().
-     -> body.onload() function is called when everything is gets ready like DOM, and images. On the other hand
-     document.ready function() is called as soon as the DOM is loaded.
+     -> body.onload() function is called when everything gets ready like DOM and images. On the other
+     hand document.ready function() is called as soon as the DOM is loaded.
 
 ### Can we use specific character in place of $ sign and how?
-     To replace the $ sign we can use noConflict().
-          For Example: A name like
-               ripon.noConflict()
-               ripon.(document).ready(function() {
-                    // code goes here				
-               });					
-               Or,
-               var ripon = jQuery.noConflict()
-               ripon.(document).ready(function() {
-                    // code goes here
-               });
+    To replace the $ sign we can use noConflict() method.
+    For Example: A name like
+    ripon.noConflict()
+    ripon.(document).ready(function() {
+        // code goes here				
+    });					
+    Or,
+    var ripon = jQuery.noConflict()
+    ripon.(document).ready(function() {
+        // code goes here
+    });
 
 ### What is higher order function?		
-     A function that takes other function as  an arguments  and returns the function result as its own result is
-     called a higher order function.
+    A function that takes other function as an argument and returns the function result as its own
+    result is called a higher order function.
 
 ### What is callback!
-     The function is passed as an argument is call callback function. It‘s named callback because at some point
-     of time it is call by a higher order function.  A callback function is executed after the current effect is
-     finished.
-           Foe Example:
-               $("button").click(function(){
-      	          $("p").hide("slow", function(){
-          	           alert("The paragraph is now hidden");
-      	          });
-               });
+    The function is passed as an argument is called callback function. It‘s named callback because at
+    some point of time it is called by a higher order function.  A callback function is executed after
+    the current effect is finished.
+    For Example:
+    $("button").click(function(){
+        $("p").hide("slow", function(){
+            alert("The paragraph is now hidden");
+        });
+    });
 
 ### What is Ajax!			
-     Ajax is stand for Asynchronous JavaScript and XML. Moreover, it’s:
-       -> Update a page without reloading it.
-       -> Received data from server.
-       -> Request data from server
-       -> Send data to the server.
+    Ajax stands for Asynchronous JavaScript and XML. Moreover, it's
+        -> Update a page without reloading it.
+        -> Received data from server.
+        -> Request data from server
+        -> Send data to the server.
 
 ### What is the use of lord method!
-     Load method is a powerful ajax method which is, lord data from server and  send data to the server without
-     refreshing the page.
-
+    Load method is a powerful Ajax method which is, lord data from server and  send data to the server
+    without refreshing the page.
 
 <hr>
 
 ## CSS / CSS3
 
-### CSS3 new feature or properties!
-     -> Box Model
-     -> Box shadows
-     -> Text shadows
-     -> Pseudo classes
-     -> Rounded corner
-     -> RGBA Color
-     -> Border images
-     -> New web fonts
-     -> Transform property
-     -> Multi column layout
+### What is CSS
+    CSS stands for Cascading Style Sheet. It defines how elements are displayed on the screen.
+
+### What are the main components of CSS   
+    The main component of CSS are
+        01. Selectors
+        02. Property
+        03. Values
+
+### CSS3 new feature or properties
+    01. Selectors
+    02. Box Model
+    03. Backgrounds and Borders
+    04. Text Effects
+    05. Pseudo classes
+    06. 2D/3D Transformations
+    07. Animations
+    08. New web fonts
+    09. RGBA Color
+    10. Multi column layout
 
 ### Block elements
-     Block elements takes the full width available.
+    Block elements takes the full width available.
 ### Inline elements
-     Inline elements takes as much width as they need.
+    Inline elements takes as much width as the elements need.
 
 ### Visibility : hidden
-     Visibility hidden simply hide the element but still take the space and affect to the layout of the document.
+    Visibility hidden simply hide the element but still take the space and affect to the layout of
+    the document.
 ### Display : none
-     Display none also hide the element and do not take the space.
+    Display none also hide the element and do not take the space.
 
-### What are the main component of CSS!
-     -> Selectors
-     -> Property
-     -> Values
+### What is class selectors and id selectors!    
+    Class selector:
+        Class selector is a way to styling multiple elements.
+    ID selector:
+        ID selector is for only one element styling.
 
 ### What are child selector
-      -> Child selectors is another way to group styling that descent from the parents.
-      -> Child selector is mention by two or more elements, which is separated by > [greater than sign]
+    -> Child selectors is another way to group styling that descent from the parents.
+    -> Child selector is mention by two or more elements, which is separated by > [greater than sign]
 
 ### How many position exit in css and what their works?
-     There are four default positioning in css:
-          -> Static position
-               The elements is position in order as they appear in the document flow. This is default position.
-          -> Relative position
-               The element is positioned relative to its normal position. By using left, right, top, bottom properties
-               we can adjust the element from its normal position.
-          -> Fixed position:
-               The element always stay in the same place even the page scroll.
-          -> Absolute position
-               The element is positioned relatives to its first positioned parents element.
+    There is four default positioning in CSS:
+    01. Static position:
+        The elements are position in order as they appear in the document flow. This is a default
+        position.
+    02. Relative position:
+        The element is positioned relative to its normal position. By using left, right, top, bottom
+        properties we can adjust the element from its normal position.
+    03. Fixed position:
+        The element always stays in the same place even the page scroll.
+    04. Absolute position
+        The element is positioned relatives to its first positioned parents element.
 
 ### What is the purpose of pseudo elements and how they are made?
-     A pseudo element is used to style specified parts of an element.
-     Pseudo elements are made by using double colon followed by the name of pseudo element.
-     For Example:
-          -> ::after
-          -> ::before
-          -> ::first-letter
-          -> ::first-line
-          -> ::selection
+    A pseudo-element is used to style specific parts of an element. Pseudo-elements are made by using
+    a double colon followed by a pseudo-element name.
+    Some useful pseudo-elements are:
+        -> ::after
+        -> ::before
+        -> ::first-letter
+        -> ::first-line
+        -> ::selection
 
-### Class selector
-     Class selector is a way to styling multiple element.
-### ID selector
-     ID selector is for only one element styling.
 
 ### What are pseudo classes and what they are use for!
-     Pseudo class is used to define a special state of an element.
-     For example, it can be used to:
-          -> Style an element when a user mouses over it
-          -> Style visited and unvisited links differently
-          -> Style an element when it gets focus
+    The pseudo-class is defined a particular state of an element.
+    For example, it can be used to:
+        -> Style an element when a user mouses over it
+        -> Style visited and unvisited links differently
+        -> Style an element when it gets focus
 
-     The most common pseudo class are:
-     -> :active
-     -> :visited
-     -> :target
-     -> :hover
-     -> :focus
+    The most common pseudo class are:
+        -> :active
+        -> :visited
+        -> :target
+        -> :hover
+        -> :focus
+
 ### What are the css selectors!
-     Class selectors
-          -> Class selector is a way to styling multiple element
-     Id selectors
-          ->  ID selector is for only one element styling.
-     Universal selectors
-          ->  Universal selector selects all elements.
-          For Example:
-          * {
-               margin: 0px;
-               padding: 0px;
-          }
-     Attribute selectors
-          -> The attribute selector is used to select elements with a specified attribute.
-          For Example:
-          a[target] {
-              background-color: yellow;
-          }
+    Class selectors :
+        Class selector is a way to styling multiple element
+    Id selectors :
+        ID selector is for only one element styling.
+    Universal selectors :
+        Universal selector selects all elements.
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+    Attribute selectors :
+        The attribute selector is used to select elements with a specified attribute.
+        a[target] {
+            background-color: yellow;
+        }
+
+### How many ways CSS can implement in the web page
+    Three ways CSS can implement in the webpage.
+        01. Inline : This goes inside the HTML elements.
+        02. Internal : This take place in the head
+        03. Eternal : It's an external CSS file link through the HTML page.
+
+### What is the purpose of z-index
+    The z-index property specifies the stack order of an element. The greater stack order elements
+    position on the top than the lower stack order elements.
+    Note: z-index only works on positioned elements [absolute, relative, or fixed].
 
 
 
 <hr>
 
-
 ## HTML / HTML5
 
 ### What is the !Doctype
-     It is specifies which markup standers the page using. With this information, the browser determines how
-     to render the page according to the source code.
+    Doctype specifies which markup standers the page using. With this information, the browser
+    determines how to render the page according to the source code.
+
+### What is HTML
+    HTML stands for Hypertext Markup Language. HTML is a language for laying out text and images
+    for the web pages.
 
 ### What are difference between HTML and HTML5
-     HTML is a simple language for laying out text and images for the web page. On other hand, HTML5 is consider
-     as an application development platform which does whatever html does and more. It also comes up with some
-     new elements which supports all the major browser.
+    HTML is a simple language for laying out text and images for the web pages. On other hands,
+    HTML5 is consider as an application development platform which does whatever HTML does and more.
+    It also comes up with some new elements which support all the major browser.
 
-### What is Element!
-     Element are individual component of HTML document. Each element can have attribute and content.
-     Example: head, body , title, html, p.
+### What is Element
+    The element is an individual component of HTML document. Each element can have attribute and
+    content.
 
-### What is tag!
-     Tag are hidden keyword within a webpage which define how browser format and display the code.
-     Example: href, src, alt.
+### What is tag
+    Tag are hidden keyword within a web page which define how browser format and display the code.
 
 ### What is attribute!
-     Attribute are always provide additional information about the element
+    Attribute are always providing additional information about an element
 
 ### What are some new feature of HTML5!
-     -> Semantic Elements [section, header, footer, aside, nav, article]
-     -> Form 2.0 [HTML5  include some new attribute with input form. Example: date, time, month, week, number,
-     email, url, output]
-     -> Audio / video [We can embed Audio, Video without restoring  the third parties plugin]
-     -> Canvas [This support two dimensional drawing surface]
-     -> Geo location [Now visitors can choose to share their own location]
+    01. Semantic Elements
+        -> section, header, footer, aside, nav, article
+    02. Form 2.0
+        -> HTML5 include some new attribute for the input form. Example: date, time, month, week,
+        number, email, URL, output.
+    03. Audio / video
+        -> With HTML5 we can embed Audio, Video without restoring the third parties plugin
+    05. Canvas
+        -> HTML5 support two-dimensional drawing surface
+    06. Geolocation
+        -> Now visitors can choose to share their own location
