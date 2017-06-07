@@ -249,21 +249,14 @@
 
 
 ### What is Closures!
-     Closures are functions that refer to independent variables. I mean, variables that are used locally, but
-     defined in an enclosing scope.
-          var add = (function () {
-    	          var counter = 0;
-	          return function () {
-                    return counter += 1;
-               }
-          })();
-          function myFunction(){
-              	document.getElementById("demo").innerHTML = add();
-          }
-
-     -> The variable add is assigned the return value of a self-invoking function.
-     -> The self-invoking function only runs once. It sets the counter to zero, and returns a function expression.
-     -> This is called a JavaScript closure. It makes it possible for a function to have "private" variables.
+     The closure is a function which is referred to a privet variable.
+     For Example:
+          var passed = 3;
+          var addTo = function() {
+               var inner = 2;
+               return passed + inner;
+          };
+          console.log(addTo()); //result will be 5.
 
 ### What is typeof operator!
      Typeof operator returns a string that identifies the data type of an expression.
