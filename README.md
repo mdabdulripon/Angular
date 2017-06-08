@@ -178,7 +178,7 @@
      It depends, For primitive type, it passed by value. And for Object, it passed by reference.
 
 
-### What is use strict and what does it do!
+### What is 'use strict' and what does it do!
      The strict mode allows you to place a program or a function in a string operating context.
      01. Can't use variables that have not been declared with var first.
      02. Javascript reserved keywords are not allowed in strict mode.
@@ -307,12 +307,12 @@
 
 
 ###  JSON.parse()
-     -> When receiving data from a web server, the data is always a string.
+     <!-- -> When receiving data from a web server, the data is always a string. -->
 	-> Convert a string data into JavaScript object.
 
 
 ### JSON.stringify():
-     -> When sending data to a web server, the data has to be a string.
+     <!-- -> When sending data to a web server, the data has to be a string. -->
      -> Convert a JavaScript object into a string with JSON.stringify().
 
 
