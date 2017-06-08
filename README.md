@@ -287,10 +287,6 @@
           };
           console.log(addTo()); //result will be 5.
 
-### What is typeof operator!
-     Typeof operator returns a string that identifies the data type of an expression.
-
-
 ### What is event in JavaScript!
      JavaScript's interaction with HTML is handled through events that occur when the user or the browser manipulates
      a page.
@@ -305,16 +301,14 @@
           -> ondblclick
           -> onfocus
 
+### What is typeof operator!
+     Typeof operator returns a string that identifies the data type of an expression.
 
 ###  JSON.parse()
-     <!-- -> When receiving data from a web server, the data is always a string. -->
-	-> Convert a string data into JavaScript object.
+	Convert a string data into JavaScript object.
 
-
-### JSON.stringify():
-     <!-- -> When sending data to a web server, the data has to be a string. -->
-     -> Convert a JavaScript object into a string with JSON.stringify().
-
+### JSON.stringify()
+     Convert a JavaScript object into a string.
 
 
 <hr>   
