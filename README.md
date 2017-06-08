@@ -166,6 +166,35 @@
     -> Null
     -> Undefined
 
+### What are primitive data type!
+    Javascript has five primitive data types:
+    -> Number,
+    -> String,
+    -> Boolean,
+    -> Undefined,
+    -> Null.
+
+### Does javascript pass a variable by reference or by value!
+     It depends, For primitive type, it passed by value. And for Object, it passed by reference.
+
+
+### What is use strict and what does it do!
+     The strict mode allows you to place a program or a function in a string operating context.
+     01. Can't use variables that have not been declared with var first.
+     02. Javascript reserved keywords are not allowed in strict mode.
+     03. Deleting a function, variable, Object is not allowed.
+
+### What are the javascript reserved keyword
+     01. Implements
+     02. Interface
+     03. Let
+     04. Package
+     05. Private
+     06. Protected
+     07. Public
+     08. Static
+     09. Yield
+
 ### What are the comparison operator!
     The comparison operators are:
     -> == [ Double Equals ]
