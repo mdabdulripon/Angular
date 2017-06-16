@@ -180,20 +180,20 @@
 
 ### What is 'use strict' and what does it do!
      The strict mode allows you to place a program or a function in a string operating context.
-     01. Can't use variables that have not been declared with var first.
-     02. Javascript reserved keywords are not allowed in strict mode.
-     03. Deleting a function, variable, Object is not allowed.
+     -> Can't use variables that have not been declared with var first.
+     -> Javascript reserved keywords are not allowed in strict mode.
+     -> Deleting a function, variable, Object is not allowed.
 
 ### What are the javascript reserved keyword
-     01. Implements
-     02. Interface
-     03. Let
-     04. Package
-     05. Private
-     06. Protected
-     07. Public
-     08. Static
-     09. Yield
+     -> Implements
+     -> Interface
+     -> Let
+     -> Package
+     -> Private
+     -> Protected
+     -> Public
+     -> Static
+     -> Yield
 
 ### What are the comparison operator!
     The comparison operators are:
@@ -310,6 +310,18 @@
 ### JSON.stringify()
      Convert a JavaScript object into a string.
 
+
+### What is Prototype!
+     Almost every object is linked to another object. that linked object is called the prototype.
+          -> Objects inherit properties and methods from its prototype ancestry.
+          -> A prototype is automatically assigned to any object.
+          -> You can define an object prototype.
+
+### How do you set the prototype of an Object!
+     Three methods for setting the prototype
+          01. Using a constructor function
+          02. Using Object.create(prototype)
+          03. Using Object.setPrototypeOf(obj, prototype) -> ES6
 
 <hr>   
 
