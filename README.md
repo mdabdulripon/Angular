@@ -323,6 +323,20 @@
           02. Using Object.create(prototype)
           03. Using Object.setPrototypeOf(obj, prototype) -> ES6
 
+### What is new keyword
+     The new operator creates an instance of a user-defined object type or one of the built-in object types that have a constructor function.
+     For Example:
+          function Car() {
+          }
+          var car1 = new Car();
+
+          car1.color = 'black';
+          console.log(car1.color); // return black
+
+### What is Object.create() method!
+     The Object.create() method creates a new object with the specified prototype object and properties.
+
+
 <hr>   
 
 ## JQUERY:
