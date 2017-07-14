@@ -336,6 +336,17 @@
 ### What is Object.create() method!
      The Object.create() method creates a new object with the specified prototype object and properties.
 
+### What is hoisting in JavaScript ?
+     Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
+
+     var myVar = 'my value';
+     function () {
+          // var myVar // behind the scenes it is happing
+          alert(myVar);
+          // myVar = 'Local value' //behind the scenes it is happing
+          var myVar = 'Local value'
+          alert(myVar);
+     }
 
 <hr>   
 
@@ -399,7 +410,7 @@
     A function that takes other function as an argument and returns the function result as its own
     result is called a higher order function.
 
-### What is callback!
+### What is callback function!
     The function is passed as an argument is called callback function. It‘s named callback because at
     some point of time it is called by a higher order function.  A callback function is executed after
     the current effect is finished.
