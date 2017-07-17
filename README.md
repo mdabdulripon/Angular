@@ -148,6 +148,12 @@
 ### RouterLink:
      RouterLink is use to link to application's routes.
 
+### What is OnInit
+     Lifecycle hook that is called after data-bound properties of a directive are initialized.
+
+### What is Decorators!
+     Decorators are functions that modify JavaScript classes. Angular has many decorators that attach metadata to
+     classes so that it knows what those classes mean and how they should work.
 
 <hr>
 
