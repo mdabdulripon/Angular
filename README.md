@@ -1,150 +1,33 @@
-## GENERAL:
-
-### Stand For:
-    -> HTML: Hypertext Markup Language
-    -> CSS: Cascading Style Sheet
-    -> XML: Extensible Markup Language
-    -> AJAX: Asynchronous Javascript And Xml
-    -> JSON: JavaScript Object Notation
-    -> HTTP: Hypertext Transfer Protocol
-    -> XHTML: Extensible Hypertext Markup Language
-    -> DOM: Document Object Model
-    -> API: Application Program Interface
-    -> REST: Re-Presentational State Transfer
-    -> W3C: World Wide Web Consortium
-    -> SGML: STANDARD GENERALIZED MARKUP LANGUAGE
-    -> DTD: Document Type Definition
-
-### How do you speed up your site performance!
-    To speed up the site performance we need to do:
-        01. Minimize HTTP Requests.
-        02. Optimize CSS Files.
-        03. Reduce image size.
-        04. Reduce server response time.
-        05. Enable browser caching.
-        06. Load JavaScript asynchronously.
-        07. Code your site for mobile-first quality.
-        08. Cache as much as possible.
-        09. Reduce the number of plugins you use on your site.
-
-### What is Vanilla javascript!
-    Vanilla Js is a name to refer to using plain JavaScript without any additional libraries like jQuery.
-
-### What is Asynchronous method!
-    Asynchronous means that the script will send a request to the server, and continue it's execution
-    without waiting for the reply. As soon as reply is received a browser event is fired.
-
-### What is web worker!
-    Web worker is a JavaScript that runs in the background independently of other scripts, without
-    affecting the page performance. You can continue to do whatever you want while the web worker
-    runs in the background.
-
-### What is MVC!
-    MVC stands for Model View Controllers. It is a software design pattern for web development
-    application.
-        a. Model is responsible for maintaining data.
-        b. View is responsible for displaying data.
-        c. Controller is responsible for controlling data between Model and View.
-
-### What is DOM!
-    The DOM is stands for Document Object Model. It’s a W3C standard, which is define the standard for
-    accessing Documents. W3C separated DOM in three ways:
-        a. Core DOM (For All Documents)
-        b. XML DOM (For XML)
-        c. HTML DOM (For HTML)
-
-
-
 ## ANGULAR 2++
 
-### What is Components!
-     -> Component decorator allows you to mark a class as an Angular component and provide additional metadata
-     that determines how the component should be processed, instantiated and used at runtime.
-     -> Angular components are a subset of directives.
-     -> A component must belong to an NgModule in order for it to be usable by another component or application.
+**list of decorators available in Angular**
+- [x] @NgModule
+- [x] @Component
+- [x] @Injectable
+- [x] @Directive
+- [x] @Pipe
+- [x] @Input
+- [x] @Output
+- [x] @HostBinding
+- [x] @HostListener
+- [x] @ContentChild
+- [x] @ContentChildren
+- [x] @ViewChild
+- [x] @ViewChildren
 
-### What is Directive!
-     There are three kinds of directives in Angular:
-          01. Components directives
-          02. Structural directives
-               -> Structural Directives change the structure of the view. Two examples are NgFor and NgIf.
-          03. Attribute directives
-               -> Attribute directives are used as attributes of elements. NgClass, NgStyle, NgModel are Attribute
-               directives.
-### What is Pipes!
-     -> Pipes transform displayed values within a template.
-     -> Angular comes with some Built  in pipes. Such as: DatePipe, UpperCasePipe, LowerCasePipe, CurrencyPipe, and
-     PercentPipe.
 
 ### What is async pipe?
-     The async pipe subscribes to an Observable and returns the latest changed value. When a new value is changed,
-     the async pipe marks the component to be checked for changes. When the component gets destroyed the async pipe
-     unsubscribes automatically to avoid potential memory leaks.
 
 ### What is Router!
-     Router enables navigation from one view to the next as users perform application tasks.
-
-### What is an Angular 2 Service!
-     Angular 2 service is a class which is associates with some methods (GET/POST/PUT) and provides it result as
-     a service for across your application.
-### What are the features of Angular 2 Service!
-     -> Services are singleton objects.
-     -> Services are capable of returning the data in the form promises or observables.
-     -> Service class is decorated with Injectable decorator
 
 ### What are the differences between Observables & Promises?
-     01. Promise:
-          Promises are only called once and It can return only a single value at a time and the Promises are not
-          cancellable.
-     02. Observables:
-          Observables handle multiple values over time and it can return multiple values and the Observables are
-          cancellable.
-     03. The Observables are more advanced than Promises.
-
-### Why Angular 2 modules needed?
-     An Angular @NgModule allows us to define a context for compiling templates.
 
 ### What is Dependency Injection!
-     Dependency Injection is a powerful pattern for managing code dependencies. Angular 2 Dependency Injection consists
-     of three things.
-          1. Injector
-               The injector object use to create instances of dependencies.
-          2. Provider
-               A provider is help to injector for create an instance of a dependency. A provider takes a token and
-               maps that to a factory function that creates an object.
-          3. Dependency
-               A dependency is the type of which an object should be created.
 
-### What is Input decorator in Angular 2!
-     Import allows you to pass data into your controller and templates through html and defining custom
-     properties.
-
-### What is Output decorator in angular 2!
-     Output decorator is used to binds a property of a component to send the data from child component to parent
-     component and this is a one-way communication.     
-
-### Routes
-     Routes uses to describe our application's Routes.
-
-### Router-outlet directive!
-     Router-outlet directive is used to render the components for specific location of your applications.
-
-### RouterLink:
-     RouterLink is use to link to application's routes.
-
-### What is OnInit
-     Lifecycle hook that is called after data-bound properties of a directive are initialized.
-
-### What is Decorators!
-     Decorators are functions that modify JavaScript classes. Angular has many decorators that attach metadata to
-     classes so that it knows what those classes mean and how they should work.
-     
-     ### Venture Pules Dashboard.
+### what is ViewEncapsulation?
 
 
 
-##### Build Command
-> ng build --prod --aot
 
 
 ##### Set Base Path::
@@ -362,3 +245,54 @@
         -> HTML5 support two-dimensional drawing surface
     06. Geolocation
         -> Now visitors can choose to share their own location
+        
+        
+        
+        
+## GENERAL:
+
+### Stand For:
+    -> HTML: Hypertext Markup Language
+    -> CSS: Cascading Style Sheet
+    -> XML: Extensible Markup Language
+    -> AJAX: Asynchronous Javascript And Xml
+    -> JSON: JavaScript Object Notation
+    -> HTTP: Hypertext Transfer Protocol
+    -> XHTML: Extensible Hypertext Markup Language
+    -> DOM: Document Object Model
+    -> API: Application Program Interface
+    -> REST: Re-Presentational State Transfer
+    -> W3C: World Wide Web Consortium
+    -> SGML: STANDARD GENERALIZED MARKUP LANGUAGE
+    -> DTD: Document Type Definition
+
+### How do you speed up your site performance!
+    To speed up the site performance we need to do:
+        01. Minimize HTTP Requests.
+        02. Optimize CSS Files.
+        03. Reduce image size.
+        04. Reduce server response time.
+        05. Enable browser caching.
+        06. Load JavaScript asynchronously.
+        07. Code your site for mobile-first quality.
+        08. Cache as much as possible.
+        09. Reduce the number of plugins you use on your site.
+
+### What is web worker!
+    Web worker is a JavaScript that runs in the background independently of other scripts, without
+    affecting the page performance. You can continue to do whatever you want while the web worker
+    runs in the background.
+
+### What is MVC!
+    MVC stands for Model View Controllers. It is a software design pattern for web development
+    application.
+        a. Model is responsible for maintaining data.
+        b. View is responsible for displaying data.
+        c. Controller is responsible for controlling data between Model and View.
+
+### What is DOM!
+    The DOM is stands for Document Object Model. It’s a W3C standard, which is define the standard for
+    accessing Documents. W3C separated DOM in three ways:
+        a. Core DOM (For All Documents)
+        b. XML DOM (For XML)
+        c. HTML DOM (For HTML)        
