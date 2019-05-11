@@ -1,0 +1,38 @@
+<div class="container">
+
+	<h1>
+		{{ title }}
+	</h1>
+
+	<form [formGroup]="paymentForm" (ngSubmit)="onSubmit($event)" novalidate>
+
+		<div class="form-container">
+			<mat-form-field>
+				<input type="text" matInput placeholder="name" formControlName="name">
+			</mat-form-field>
+
+			<mat-form-field>
+				<input type="email" matInput placeholder="email" formControlName="email">
+			</mat-form-field>
+
+			<mat-form-field>
+				<input type="number" matInput placeholder="Phone Number" formControlName="phone">
+			</mat-form-field>
+		</div>
+
+		<mat-tab-group>
+			<mat-tab label="Billing Info"> 
+				<app-billing-info (initialize)="initializeForm('billingInfo', $event)"></app-billing-info>
+			</mat-tab>
+
+			<mat-tab label="Bulling Address"> 
+				<app-billing-address (initialize)="initializeForm('billingAddress', $event)"></app-billing-address>
+			</mat-tab>
+		</mat-tab-group>
+
+		<button type="submit" mat-raised-button color="primary"> {{ btnText }} </button>
+
+	</form>
+
+	<pre>{{ paymentForm.value | json }}</pre>
+</div>
