@@ -22,11 +22,11 @@
 
 		<mat-tab-group>
 			<mat-tab label="Billing Info"> 
-				<app-billing-info (initialize)="initializeForm('billingInfo', $event)"></app-billing-info>
+				<app-billing-info [parentForm]="paymentForm"></app-billing-info>
 			</mat-tab>
 
 			<mat-tab label="Bulling Address"> 
-				<app-billing-address (initialize)="initializeForm('billingAddress', $event)"></app-billing-address>
+				<app-billing-address [parentForm]="paymentForm"></app-billing-address>
 			</mat-tab>
 		</mat-tab-group>
 

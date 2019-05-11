@@ -18,7 +18,18 @@ export class AppComponent implements OnInit {
 		this.paymentForm = this._fb.group({
 			name: [''],
 			email: [''],
-			phone: ['']
+			phone: [''],
+
+			cardNumber: [''],
+			cvv: [''],
+			expirationData: [''],
+
+			streetAddress: [''],
+			apartmentNumber: [''],
+			city: [''],
+			state: [''],
+			zipCode: [''],
+			country: [''],
 		})
 	}
 
