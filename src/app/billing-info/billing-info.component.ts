@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
@@ -8,19 +8,10 @@ import { FormGroup, FormBuilder } from '@angular/forms';
 })
 export class BillingInfoComponent implements OnInit {
 
-
-  @Output() initialize = new EventEmitter<FormGroup>();
-  
-  billingForm: FormGroup;
+  @Input() parentForm: FormGroup;
 
   constructor( private _fb: FormBuilder) { }
 
   ngOnInit() {
-    this.billingForm = this._fb.group({
-      cardNumber: [''],
-      cvv: [''],
-      expirationData: ['']
-    })
-    this.initialize.emit(this.billingForm)
   }  
 }

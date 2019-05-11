@@ -1,5 +1,5 @@
+import { Component, OnInit, Input } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-billing-address',
@@ -8,21 +8,10 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class BillingAddressComponent implements OnInit {
 
-  @Output() initialize = new EventEmitter<FormGroup>();
-  public billingAddressForm: FormGroup;
-
+  @Input() parentForm = FormGroup;
+  
   constructor(private _fb: FormBuilder) { }
 
   ngOnInit() {
-    this.billingAddressForm = this._fb.group({
-      streetAddress: [''],
-      apartmentNumber: [''],
-      city: [''],
-      state: [''],
-      zipCode: [''],
-      country: ['']
-    });
-    this.initialize.emit(this.billingAddressForm)
   }
-
 }
