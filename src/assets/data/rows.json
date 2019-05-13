@@ -1,0 +1,46 @@
+{
+    "rows" : [
+        {
+            "name": "uber",
+            "foundedYear": 2009,
+            "websiteUrl": "https://www.uber.com/",
+            "operatingStatus": "active",
+            "fundingStatus": "IPO"
+        },
+        {
+            "name": "lyft",
+            "foundedYear": 2012,
+            "websiteUrl": "https://www.lyft.com/",
+            "operatingStatus": "active",
+            "fundingStatus": "IPO"
+        },
+         {
+             "name": "tesla",
+             "foundedYear": 2003,
+             "websiteUrl": "https://www.tesla.com/",
+             "operatingStatus": "active",
+             "fundingStatus": "IPO"
+         },
+        {
+            "name": "Airbnb",
+            "foundedYear": 2008,
+            "websiteUrl": "https://www.airbnb.com/",
+            "operatingStatus": "active",
+            "fundingStatus": "Private"
+        },
+        {
+            "name": "Apple",
+            "foundedYear": 1976,
+            "websiteUrl": "https://www.apple.com/",
+            "operatingStatus": "active",
+            "fundingStatus": "IPO"
+        },
+        {
+            "name": "facebook",
+            "foundedYear": 2004,
+            "websiteUrl": "https://www.facebook.com/",
+            "operatingStatus": "active",
+            "fundingStatus": "IPO"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { DataService } from './data.service';
 
 @Component({
 	selector: 'app-root',
@@ -8,37 +8,19 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
 	
-	public title = 'Payment System';
-	public btnText = 'submit';
-	public paymentForm: FormGroup;
+	public title = 'Multiple Http Call With';
 
-	constructor(private _fb: FormBuilder) { }
+	public headers: any;
+	public rows: any;
+
+	constructor( private _data: DataService) { }
 
 	ngOnInit() {
-		this.paymentForm = this._fb.group({
-			name: [''],
-			email: [''],
-			phone: [''],
-
-			cardNumber: [''],
-			cvv: [''],
-			expirationData: [''],
-
-			streetAddress: [''],
-			apartmentNumber: [''],
-			city: [''],
-			state: [''],
-			zipCode: [''],
-			country: [''],
-		})
+		this._data.getData().subscribe(res => {
+			console.log(`res 1`, res[0])
+			console.log(`res 2`, res[1])
+			this.headers = res[0].companyInfo;
+			this.rows = res[1].rows;
+		});
 	}
-
-	initializeForm(name: string, form: FormGroup) {
-		this.paymentForm.setControl(name, form)
-	}
-
-	onSubmit(event) {
-		console.log(`xxxx`, this.paymentForm.value);
-	}
-
 }

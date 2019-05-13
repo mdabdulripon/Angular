@@ -1,0 +1,29 @@
+{
+    "companyInfo": [
+        {
+            "name": "Name",
+            "field": "name",
+            "display": true
+        },
+        {
+            "name": "Founded Date",
+            "field": "foundedDate",
+            "display": true
+        },
+        {
+            "name": "Website",
+            "field": "website",
+            "display": true
+        },
+        {
+            "name": "Operating Status",
+            "field": "operatingStatus",
+            "display": true
+        },
+        {
+            "name": "Funding Status",
+            "field": "fundingStatus",
+            "display": true
+        }
+    ]
+}
