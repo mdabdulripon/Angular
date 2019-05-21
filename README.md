@@ -15,6 +15,16 @@
 - [x] @ViewChild
 - [x] @ViewChildren
 
+### Data Binding
+*Data binding provides communication between a component and the DOM. There are four forms of data binding.*
+- [x] Interpolation: {{ value }} - [class => template] 
+- [x] Property binding: [property]=”value” [class => template]
+- [x] Event binding: (event)=”function” [DOM => Component ]
+- [x] Two-way data binding: [(ngModel)]=”value” [Dom <=> Component]
+
+*The Interpolation, Property binding and the Event binding is providing one way data binding.*
+[See Example](https://gist.github.com/mdabdulripon/cfbe2162afe90f1ad96c236b5e9573b9)
+
 **what is ViewEncapsulation?**
 
 **Angular animations**
